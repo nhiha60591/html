@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  flex-direction: row;
+}
+header div {
+  flex: 1;
+  background: aqua;
+  margin: 10px;
+}
+header .logo {
+  width: 200px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: flex-start;
+}
+ul li {
+  padding: 20px;
+  margin: 5px;
+  border: 1px dashed #cdcdcd;
+}
